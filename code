@@ -1,0 +1,9 @@
+; BEGIN
+
+on *:START:{
+  .server your-ip +port user/network:pass -i nickname
+  .server -m your-ip +port user/network:pass -i nickname
+  .server -m your-ip +port user/network:pass -i nickname
+}
+
+; END
